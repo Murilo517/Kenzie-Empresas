@@ -1,0 +1,212 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 24px;
+  padding-right: 81px;
+  padding-left: 81px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.divPerfil {
+  width: 1180px;
+  height: 121px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  border: solid black 1px;
+  padding: 8px 20px;
+}
+
+.divInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.btnEdit {
+  width: 35px;
+  height: 35px;
+  background-image: url(/img/edit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  margin-top: 25px;
+}
+
+.divBot {
+  width: 1178px;
+  height: 467px;
+  margin: 0 auto;
+  background: #f8f8f8;
+  border: 1px solid #a8a8a8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divBot > p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.divTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBody {
+  display: flex;
+  padding: 32px 24px;
+  gap: 46px;
+  width: 475px;
+  height: 421px;
+  background: #fcfeff;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.x {
+  display: flex;
+  width: 15px;
+}
+
+.btnLogout {
+  border: #4200ff solid 1px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #4200ff;
+}
+
+
+.inputUser{
+  width: 422px;
+height: 52px;
+}
+
+.btnUpdate{
+  width: 422px;
+  height: 52px;
+  background: #4200FF;font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  
+  text-align: center;
+  
+  color: #FFFFFF
+}
+
+h2{
+
+  font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+
+color: #000000;
+}
+
+.xBase{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+left: 870px;
+background: none;
+border: none;
+font-size: 30px;
+}
+
+.divCompany{
+
+width: 1178px;
+height: 78px;
+display: flex;
+justify-content: center;
+gap: 30px;
+background-color: #4200FF;
+padding: 16px 0px;
+align-self: flex-start;
+}
+
+.nameCompany{
+
+height: 39px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+}
+
+.descriptionDepart{
+height: 39px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+}
+
+.cardUser{
+
+
+  width: 318px;
+height: 100px;
+background: #FFFFFF;
+border: 1px solid #4200FF;
+display: flex;
+flex-direction: column;
+padding: 0 16px;
+margin: 0 25px;
+}
+
+.containerCompany{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 50px 25px;
+
+}

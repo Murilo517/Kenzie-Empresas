@@ -1,0 +1,470 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.btnCriar {
+  background: #4200ff;
+  color: white;
+  width: 150px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.btnLogout {
+  border: #4200ff solid 1px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #4200ff;
+}
+.h2Mid{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.divTopDep {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.departments {
+  display: flex;
+  gap: 92px;
+  flex-wrap: wrap;
+  height: 250px;
+  overflow-y: scroll;
+  background-color: #F8F8F8;
+  padding: 30px;
+}
+
+.cardDep {
+  width: 489px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #4200FF;
+}
+
+.divBtns {
+  display: flex;
+  margin: 0 auto;
+  gap: 14px;
+  align-items: center;
+}
+
+.allUsers {
+  margin: 0 auto;
+  display: flex;
+  gap: 92px;
+  flex-wrap: wrap;
+  height: 385px;
+  overflow-y: scroll;
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+
+.divTopDepart{
+  display: flex;
+  gap: 30px;
+}
+
+
+.divNameDescription{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardUser {
+  width: 489px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: white;
+}
+
+.divInfoUser {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  padding: 10px;
+}
+
+.divBtnsUser {
+  display: flex;
+  margin: 26px auto;
+  gap: 14px;
+}
+
+.btnEditUser {
+  width: 34px;
+  height: 34px;
+  background-image: url(/img/edit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+}
+
+.btnDeleteUser {
+  width: 34px;
+  height: 34px;
+  background-image: url(/img/trashcan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+}
+
+.btnView {
+  width: 48px;
+  height: 48px;
+  background-image: url(/img/imgOlho.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBody {
+  display: flex;
+  padding: 32px 24px;
+  gap: 46px;
+  width: 480px;
+  height: 350px;
+  background: #fcfeff;
+  flex-direction: column;
+}
+
+.inputUpdateUserAdmin{
+
+
+  width: 422px;
+height: 52px;
+}
+
+.btnEditUserAdmin{
+
+  width: 422px;
+height: 52px;
+background: #4200FF;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+
+}
+
+
+  .inputNewDepart{
+
+    width: 422px;
+height: 52px;
+  }
+
+  .btnCreateNewDepart{
+    width: 422px;
+    height: 52px;
+    background: #4200FF;
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+
+  }
+
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modalDepart {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBodyDepart {
+  display: flex;
+  padding: 32px 24px;
+  gap: 46px;
+  width: 555px;
+  height: 480px;
+  background: #fcfeff;
+  flex-direction: column;
+}
+
+.divBotDepart {
+  height: 160px;
+
+  overflow-x: scroll;
+  background: #f8f8f8;
+  display: flex;
+  gap: 50px;
+}
+
+.selectCreate{
+  width: 282px;
+  height: 32px;
+ border-radius: 0px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.selectCreateNewDepart{
+  width: 422px;
+  height: 52px;
+ border-radius: 0px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+select {
+  width: 282px;
+  height: 32px;
+  padding: 5px;
+border: 1px solid #000000;
+border-radius: 15px;
+}
+
+.btnContratar {
+  width: 157px;
+  height: 48px;
+  background: #4ba036;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.formContratar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.x {
+  width: 31px;
+  height: 31px;
+}
+
+.divSelect {
+  display: flex;
+}
+
+
+.modalNewDepart {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBodyNewDepart {
+  display: flex;
+  padding: 32px 24px;
+  gap: 46px;
+  width: 506px;
+  height: 421px;
+  background: #fcfeff;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.desligar{
+
+  width: 157px;
+  height: 48px;
+  
+  border: 1px solid #CE4646;
+  font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #CE4646;
+
+}
+
+.divCard{
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.modalEditDepart {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBodyEditDepart {
+  display: flex;
+  padding: 32px 24px;
+  gap: 46px;
+  width: 506px;
+  height: 330px;
+  background: #fcfeff;
+  display: flex;
+  flex-direction: column;
+}
+
+.xEdit{
+  position: fixed;
+  left: 885px;
+  width: 31px;
+  height: 31px;
+  background: none;
+  border: none;
+  font-size: 20px;
+
+}
+
+.inputEditDescription{
+  width: 422px;
+height: 113px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.submitDescription{
+  width: 422px;
+height: 48px;
+color: white;
+background-color: #4200FF;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+}
+
+.h2EditDescription{
+  font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+width: 391px;
+height: 54px;
+
+color: #000000;
+}
+
+
+.modalConfirmDelete {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBodyConfirmDelete {
+  display: flex;
+  padding: 32px 24px;
+  gap: 46px;
+  width: 465px;
+  height: 190px;
+  background: #fcfeff;
+  flex-direction: column;
+  
+}
+
+.btnRemove{
+  width: 422px;
+  height: 48px;
+  font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+
+background: #4BA036;
+
+
+}
+
+.xDelete{
+
+  width: 31px;
+  height: 31px;
+  position: fixed;
+  left: 870px;
+  top: 230px;
+  background: none;
+  border: none;
+  font-size: 30px;
+
+}
+
+.divDelete{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #4200FF;
+}

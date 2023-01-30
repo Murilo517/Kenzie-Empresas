@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  height: 100vh;
+
+}
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button:hover{
+
+  cursor: pointer;
+
+}
+
+.logo{
+  width: 210px;
+  height: 21px;
+  margin-top: 10px;
+}

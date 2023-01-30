@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyle.css" />
+    <link rel="stylesheet" href="/styles/register.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <img src="/img/Logo Kenzie Empresas.png" alt="" class="logo" />
+      <div>
+        <button class="btnHome">Home</button>
+        <button class="btnLogin">Login</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="divForm">
+        <form>
+          <h2>Cadastre-se</h2>
+          <input type="text" name="" id="username" placeholder="Seu nome" class="inputUser" />
+          <input type="email" placeholder="Seu e-mail" id="email" class="inputUser"/>
+          <input type="password" id="password" placeholder="Sua senha" class="inputUser"/>
+          <select name="professional_level" id="" class="inputUser">
+            <option value="" disabled selected>Nível profissional</option>
+            <option value="sênior">sênior</option>
+            <option value="júnior">jûnior</option>
+            <option value="estágio">estágio</option>
+            <option value="pleno">pleno</option>
+          </select>
+          <button type="submit" class="btnCadastrar">Cadastre-se</button>
+        </form>
+        <button class="btnReturn">Retornar</button>
+        <span class="spanErro hidden">Algo deu errado!</span>
+      </div>
+    </main>
+    <script type="module" src="/js/register.js"></script>
+  </body>
+</html>

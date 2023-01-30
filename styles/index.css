@@ -1,0 +1,111 @@
+header {
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  gap: 60px;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+.imgPrincipal {
+  margin-top: 43px;
+  width: 100%;
+}
+
+.logo{
+  width: 210px;
+  height: 21px;
+}
+
+
+#selectEmpresa {
+  margin-top: 43px;
+  background-color: #4200ff;
+  max-width: 100%;
+  color: white;
+height: 52.18px;
+width: 100%;
+}
+
+
+.btnCadastro {
+  background: #4200ff;
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.sectionEmpresa {
+  display: flex;
+  flex-direction: column;
+  height: 743px;
+  width: 50%;
+
+}
+
+.divHeader{
+max-width: 1440px;
+display: flex;
+justify-content: space-between;
+padding: 16px 35px;
+margin: 0 auto;
+
+
+}
+
+
+
+.divEmpresas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-bottom: 1px solid #4200ff;
+  padding: 5px;
+}
+
+.divInfoEmpresa {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sector {
+  color: #4200ff;
+  text-align: center;
+  width: 93px;
+  height: 32px;
+  border: 1px solid #4200ff;
+  border-radius: 255px;
+  padding-top: 3px;
+
+}
+
+
+
+.btnLogin {
+  border: #4200ff solid 1px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #4200ff;
+}

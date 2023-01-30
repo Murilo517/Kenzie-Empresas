@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globalStyle.css">
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <img src="/img/Logo Kenzie Empresas.png" alt="" class="logo">
+        <div>
+            <button class="btnHome">Home</button>
+            <button class="btnCadastro">Cadastro</button>
+        </div>
+    </header>
+    <main>
+        <div class="divForm">
+            <form>
+                <label for="Login" class="login">Login</label>
+                <p>Preencha os campos para realizar o login</p>
+                <input type="email" name="Login" id="email" placeholder="Seu e-mail" class="inputUser">
+                <input type="password" id="password" placeholder="Sua senha" class="inputUser">
+                <span class="spanErro hidden">Email ou Senha Incorretos!</span>
+                <button type="submit" class="btnLogin">Login</button>
+            </form>
+            <span class="ou">Ou</span>
+            <button class="btnCadastro2">Cadastre-se</button>
+        </div>
+    </main>
+     <script type="module" src="/js/login.js"></script>
+</body>
+</html>
